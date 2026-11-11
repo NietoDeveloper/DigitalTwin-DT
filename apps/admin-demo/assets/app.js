@@ -14,9 +14,6 @@ const MOCK_TRABAJO = {
 };
 
 const MOCK_MENSAJES = {
-  central: [ "Cita pendiente de confirmación — Cliente Demo 1", "Pago recibido — Cliente Demo 3" ],
-  contacto: [ "Consulta general vía formulario web", "Solicitud de información de servicios" ],
-};
 
 const MOCK_PRODUCTOS = [
   { name: "Diagnóstico inicial", desc: "Evaluación de proceso a digitalizar" },
