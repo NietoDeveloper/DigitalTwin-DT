@@ -17,13 +17,7 @@ const MOCK_PRODUCTOS = [ funcional del servicio" },
     (r) => `<tr><td>${r.cliente}</td><td>${r.servicio}</td><td>${r.fecha}</td>
       <td><span class="dot ${r.conf}"></span>${r.conf === "green" ? "Enviada" : r.conf === "amber" ? "Pendiente" : "Fallida"}</td></tr>`
   ).join("");lue">${k.value}</div><div class="label">${k.label}</div></div>`
-  ).join("");
-}
-  document.getElementById("inbox-central").innerHTML =
-    MOCK_MENSAJES.central.map((m) => `<li>${m}</li>`).join("");
-  document.getElementById("inbox-contacto").innerHTML =
-    MOCK_MENSAJES.contacto.map((m) => `<li>${m}</li>`).join("");
-  document.getElementById("badge-central").textContent = MOCK_MENSAJES.central.length;
+  ).join("");tent = MOCK_MENSAJES.central.length;
   document.getElementById("badge-contacto").textContent = MOCK_MENSAJES.contacto.length;
 }
 
