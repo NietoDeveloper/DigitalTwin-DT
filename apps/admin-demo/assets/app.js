@@ -13,12 +13,6 @@ const MOCK_TRABAJO = {
   ],
 };
 
-const MOCK_VENTAS = {
-  dia: [ { label: "MVP", value: "$0 (demo)" }, { label: "Producto Final", value: "$0 (demo)" }, { label: "Aportes", value: "$0 (demo)" } ],
-  semana: [ { label: "MVP", value: "$0 (demo)" }, { label: "Producto Final", value: "$0 (demo)" }, { label: "Aportes", value: "$0 (demo)" } ],
-  mes: [ { label: "MVP", value: "$0 (demo)" }, { label: "Producto Final", value: "$0 (demo)" }, { label: "Aportes", value: "$0 (demo)" } ],
-};
-
 const MOCK_MENSAJES = {
   central: [ "Cita pendiente de confirmación — Cliente Demo 1", "Pago recibido — Cliente Demo 3" ],
   contacto: [ "Consulta general vía formulario web", "Solicitud de información de servicios" ],
