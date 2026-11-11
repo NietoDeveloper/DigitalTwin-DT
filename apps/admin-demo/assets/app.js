@@ -25,10 +25,7 @@ const MOCK_PRODUCTOS = [
 ];
 
 const MOCK_CONEXIONES = [
-  { name: "Cluster Cliente", status: "green" },
-  { name: "Cluster Admin", status: "green" },
-  { name: "Base de datos", status: "amber" },
-];
+  { name: "Cluster Cliente", status: "green" }
 
 // --- Login ---
 document.getElementById("login-btn").addEventListener("click", () => {
