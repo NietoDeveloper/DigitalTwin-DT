@@ -14,9 +14,5 @@ const MOCK_PRODUCTOS = [ funcional del servicio" },
   { name: "Soporte y mantenimiento", desc: "Acompañamiento post-lanzamiento" },
 ];o-table tbody");
   tbody.innerHTML = MOCK_TRABAJO[tab].map(
-    (r) => `<tr><td>${r.cliente}</td><td>${r.servicio}</td><td>${r.fecha}</td>
-      <td><span class="dot ${r.conf}"></span>${r.conf =
-
-}
 
 }
