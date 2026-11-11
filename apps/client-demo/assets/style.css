@@ -12,12 +12,6 @@ body{
   background:var(--bg);
   color:var(--gainsboro);
 }
-.demo-banner{
-  ba
-.hero h1{
-  font-size:48px;
-  margin:0;
-  letter-spacing:2px;
 }
 .gold{color:var(--gold)}
 .tagline{color:#999;margin-top:8px}
