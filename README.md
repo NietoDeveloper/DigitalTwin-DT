@@ -5,4 +5,4 @@
 
 _© 2026 Software DT — Todos los derechos reservados. Este repositorio es material demostrativo/comercial; no constituye entrega de código de producción._
 
-</div>
+</d
