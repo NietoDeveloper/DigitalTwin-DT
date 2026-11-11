@@ -15,11 +15,7 @@ const MOCK_PRODUCTOS = [ funcional del servicio" },
 ];o-table tbody");
   tbody.innerHTML = MOCK_TRABAJO[tab].map(
     (r) => `<tr><td>${r.cliente}</td><td>${r.servicio}</td><td>${r.fecha}</td>
-      <td><span class="dot ${r.conf}"></span>${r.conf === "green" ? "Enviada" : r.conf === "amber" ? "Pendiente" : "Fallida"}</td></tr>`
-  ).join("");lue">${k.value}</div><div class="label">${k.label}</div></div>`
-  ).join("");tent = MOCK_MENSAJES.central.length;
-  document.getElementById("badge-contacto").textContent = MOCK_MENSAJES.contacto.length;
-}
+      <td><span class="dot ${r.conf}"></span>${r.conf =
 
 }
 
