@@ -13,8 +13,6 @@ const MOCK_MENSAJES = {
 const MOCK_PRODUCTOS = [ funcional del servicio" },
   { name: "Soporte y mantenimiento", desc: "Acompañamiento post-lanzamiento" },
 ];
-  renderMensajeria();
-  renderProductos();
   renderConexiones();
 });
 
