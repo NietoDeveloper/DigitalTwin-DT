@@ -12,14 +12,7 @@ const MOCK_MENSAJES = {
 
 const MOCK_PRODUCTOS = [ funcional del servicio" },
   { name: "Soporte y mantenimiento", desc: "Acompañamiento post-lanzamiento" },
-];
-  renderConexiones();
-});
-function renderTrabajo(tab) {
-  document.querySelectorAll('#section-trabajo .tab-btn').forEach((b) => {
-    b.classList.toggle("active", b.dataset.tab === tab);
-  });
-  const tbody = document.querySelector("#trabajo-table tbody");
+];o-table tbody");
   tbody.innerHTML = MOCK_TRABAJO[tab].map(
     (r) => `<tr><td>${r.cliente}</td><td>${r.servicio}</td><td>${r.fecha}</td>
       <td><span class="dot ${r.conf}"></span>${r.conf === "green" ? "Enviada" : r.conf === "amber" ? "Pendiente" : "Fallida"}</td></tr>`
