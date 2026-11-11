@@ -6,8 +6,4 @@ const MOCK_TRABAJO = {
     { cliente: "Cliente Demo 2", servicio: "Implementación MVP", fecha: "2026-10-05", conf: "amber" },
   ],
   cumplida: [
-    { cliente: "Cliente Demo 3", servicio: "Soporte", fecha: "2026-09-20", conf: "green" },
-  ],
-const MOCK_MENSAJES = {
-
-}
+    { cliente: "Cliente Demo 3", servicio
