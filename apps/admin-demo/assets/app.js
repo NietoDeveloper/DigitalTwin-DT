@@ -18,10 +18,6 @@ const MOCK_PRODUCTOS = [ funcional del servicio" },
       <td><span class="dot ${r.conf}"></span>${r.conf === "green" ? "Enviada" : r.conf === "amber" ? "Pendiente" : "Fallida"}</td></tr>`
   ).join("");
 }
-document.querySelectorAll('#section-trabajo .tab-btn').forEach((b) =>
-  b.addEventListener("click", () => renderTrabajo(b.dataset.tab))
-);
-
 function renderVentas(range) {
   document.querySelectorAll('#section-ventas .tab-btn').forEach((b) => {
     b.classList.toggle("active", b.dataset.range === range);
