@@ -13,12 +13,6 @@ const MOCK_MENSAJES = {
 const MOCK_PRODUCTOS = [ funcional del servicio" },
   { name: "Soporte y mantenimiento", desc: "Acompañamiento post-lanzamiento" },
 ];
-
-const MOCK_CONEXIONES = [
-  { name: "Cluster Cliente", statuclassList.remove("hidden");
-  renderOverview();
-  renderTrabajo("pendiente");
-  renderVentas("dia");
   renderMensajeria();
   renderProductos();
   renderConexiones();
