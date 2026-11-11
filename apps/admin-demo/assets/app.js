@@ -15,9 +15,7 @@ const MOCK_TRABAJO = {
 
 const MOCK_MENSAJES = {
 
-const MOCK_PRODUCTOS = [
-  { name: "Diagnóstico inicial", desc: "Evaluación de proceso a digitalizar" },
-  { name: "Implementación MVP", desc: "Primera versión funcional del servicio" },
+const MOCK_PRODUCTOS = [ funcional del servicio" },
   { name: "Soporte y mantenimiento", desc: "Acompañamiento post-lanzamiento" },
 ];
 
