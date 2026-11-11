@@ -15,12 +15,6 @@ const MOCK_PRODUCTOS = [ funcional del servicio" },
 ];
   renderConexiones();
 });
-
-// --- Nav ---rid");
-  grid.innerHTML = [,
-  ].map((k) => `<div class="kpi"><div class="value">${k.value}</div><div class="label">${k.label}</div></div>`).join("");
-}
-
 function renderTrabajo(tab) {
   document.querySelectorAll('#section-trabajo .tab-btn').forEach((b) => {
     b.classList.toggle("active", b.dataset.tab === tab);
