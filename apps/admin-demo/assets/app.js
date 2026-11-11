@@ -16,15 +16,7 @@ const MOCK_PRODUCTOS = [ funcional del servicio" },
   tbody.innerHTML = MOCK_TRABAJO[tab].map(
     (r) => `<tr><td>${r.cliente}</td><td>${r.servicio}</td><td>${r.fecha}</td>
       <td><span class="dot ${r.conf}"></span>${r.conf === "green" ? "Enviada" : r.conf === "amber" ? "Pendiente" : "Fallida"}</td></tr>`
-  ).join("");
-}
-function renderVentas(range) {
-  document.querySelectorAll('#section-ventas .tab-btn').forEach((b) => {
-    b.classList.toggle("active", b.dataset.range === range);
-  });
-  const grid = document.getElementById("ventas-grid");
-  grid.innerHTML = MOCK_VENTAS[range].map(
-    (k) => `<div class="kpi"><div class="value">${k.value}</div><div class="label">${k.label}</div></div>`
+  ).join("");lue">${k.value}</div><div class="label">${k.label}</div></div>`
   ).join("");
 }
 document.querySelectorAll('#section-ventas .tab-btn').forEach((b) =>
