@@ -16,12 +16,7 @@ const MOCK_PRODUCTOS = [ funcional del servicio" },
   renderConexiones();
 });
 
-// --- Nav ---
-document.querySelectorAll(".nav-btn").forEach
-});
-
-function renderOverview() {
-  const grid = document.getElementById("kpi-grid");
+// --- Nav ---rid");
   grid.innerHTML = [
     { label: "Usuarios registrados", value: "128 (demo)" },
     { label: "En curso", value: "6 (demo)" },
