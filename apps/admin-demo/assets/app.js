@@ -15,12 +15,7 @@ const MOCK_PRODUCTOS = [ funcional del servicio" },
 ];
 
 const MOCK_CONEXIONES = [
-  { name: "Cluster Cliente", status: "green" }
-
-// --- Login ---
-document.getElementById("login-btn").addEventListener("click", () => {
-  document.getElementById("login-screen").classList.add("hidden");
-  document.getElementById("dashboard").classList.remove("hidden");
+  { name: "Cluster Cliente", statuclassList.remove("hidden");
   renderOverview();
   renderTrabajo("pendiente");
   renderVentas("dia");
