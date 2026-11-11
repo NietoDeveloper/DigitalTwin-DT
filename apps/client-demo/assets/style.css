@@ -11,21 +11,6 @@ body{
   font-famil
   color:#000;
   padding:12px 28px;
-  border-radius:6px;
-  text-decoration:none;S
-}
-  border:1px solid #333;
-  color:var(--gainsboro);
-  padding:10px;
-  border-radius:6px;
-  font-size:14px;
-}
-button{
-  background:var(--gold);
-  color:#000;
-  border:none;
-  padding:12px;
-  border-radius:6px;
   font-weight:700;
   cursor:pointer;
 }
