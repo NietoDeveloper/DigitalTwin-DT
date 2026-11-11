@@ -19,8 +19,4 @@ const MOCK_PRODUCTOS = [ funcional del servicio" },
 
 }
 
-function renderConexiones() {
-  document.getElementById("conexiones-list").innerHTML = MOCK_CONEXIONES.map(
-    (c) => `<li><span class="dot ${c.status}"></span>${c.name} — ${c.status === "green" ? "Operativo" : "Advertencia"}</li>`
-  ).join("");
 }
