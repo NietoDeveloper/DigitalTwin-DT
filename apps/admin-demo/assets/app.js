@@ -21,10 +21,6 @@ const MOCK_PRODUCTOS = [ funcional del servicio" },
   document.getElementById("badge-contacto").textContent = MOCK_MENSAJES.contacto.length;
 }
 
-function renderProductos() {
-  document.getElementById("productos-list").innerHTML = MOCK_PRODUCTOS.map(
-    (p) => `<div class="card"><h3>${p.name}</h3><p>${p.desc}</p></div>`
-  ).join("");
 }
 
 function renderConexiones() {
