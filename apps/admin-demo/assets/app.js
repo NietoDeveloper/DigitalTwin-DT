@@ -8,11 +8,6 @@ const MOCK_TRABAJO = {
   cumplida: [
     { cliente: "Cliente Demo 3", servicio: "Soporte", fecha: "2026-09-20", conf: "green" },
   ],
-  cancelada: [
-    { cliente: "Cliente Demo 4", servicio: "Diagnóstico inicial", fecha: "2026-09-15", conf: "red" },
-  ],
-};
-
 const MOCK_MENSAJES = {
 
 const MOCK_PRODUCTOS = [ funcional del servicio" },
