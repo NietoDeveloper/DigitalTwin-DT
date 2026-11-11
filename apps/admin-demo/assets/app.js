@@ -19,11 +19,6 @@ const MOCK_PRODUCTOS = [ funcional del servicio" },
   ).join("");lue">${k.value}</div><div class="label">${k.label}</div></div>`
   ).join("");
 }
-document.querySelectorAll('#section-ventas .tab-btn').forEach((b) =>
-  b.addEventListener("click", () => renderVentas(b.dataset.range))
-);
-
-function renderMensajeria() {
   document.getElementById("inbox-central").innerHTML =
     MOCK_MENSAJES.central.map((m) => `<li>${m}</li>`).join("");
   document.getElementById("inbox-contacto").innerHTML =
