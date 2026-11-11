@@ -17,10 +17,7 @@ const MOCK_PRODUCTOS = [ funcional del servicio" },
 });
 
 // --- Nav ---rid");
-  grid.innerHTML = [
-    { label: "Usuarios registrados", value: "128 (demo)" },
-    { label: "En curso", value: "6 (demo)" },
-    { label: "Terminados", value: "42 (demo)" },
+  grid.innerHTML = [,
   ].map((k) => `<div class="kpi"><div class="value">${k.value}</div><div class="label">${k.label}</div></div>`).join("");
 }
 
