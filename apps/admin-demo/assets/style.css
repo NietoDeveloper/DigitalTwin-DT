@@ -15,5 +15,5 @@
 }
 .dashboard{
   display:grid;
-.status-list{list-style:none;padding:0;display:flex;flex-direction:column;gap:10px}
+.status-list{list-style:none;padding:0;display:fflex-direction:column;gapx}
 .status-list li{background:var(--surfa
