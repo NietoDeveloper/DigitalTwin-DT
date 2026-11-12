@@ -4,6 +4,3 @@ const MOCK_SERVICES = [
   { id: "svc-2", name: "Implementación MVP", desc: "Primera versión funcional del servicio" },
   { id: "svc-3", name: "Soporte y mantenimiento", desc: "Acompañamiento post-lanzamiento" },
 ];
-
-function renderServices() {
-  const list = document.get
