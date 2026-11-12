@@ -7,12 +7,7 @@
   --green:#00D26A;
   --amber:#FEB60D;
   --red:#FF4D4D;
-}
-*{box-sizing:border-box}
-(--gold)}
 
-/* Login */ify-content:center;
-}
 .tagline{color:#999;margin:0 0 24px}
 #login-btn{
   background:var(--gold);color:#00align:center;font-weight:700;
