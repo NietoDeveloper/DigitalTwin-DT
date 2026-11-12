@@ -15,7 +15,7 @@ function renderServices() {
   select.innerHTML = MOCK_SERVICES.map(
     (s) => `<option value="${s.id}">${s.name}
   ).join(""
-function handleBooking(e) {
+function hand
   e.preventDefault();
   const name = document.getElementById("name").val de "${service}" para el ${date}
     quedaría registrada. En la versión real esto se conecta al panel administrativo
