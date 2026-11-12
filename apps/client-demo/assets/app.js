@@ -17,7 +17,7 @@ function renderServices() {
   ).join(""
 function hand
   e.preventDefault();
-  const name = document.getElementById("name").val de "${service}" para el ${date}
+  const name = document.getElementById("naice}" para el ${date}
     quedaría registrada. En la versión real esto se conecta al panel administrativo
     en tiempo real (ver <em>admin-demo</em>).
   `;
