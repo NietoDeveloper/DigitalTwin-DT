@@ -98,10 +98,6 @@ packages/content Typed content shared by both (plans, features, FAQ…)
 
 Scripts: `npm run dev` · `npm run build` · `npm run typecheck` · `npm test`
 
-## Not deployed on purpose
-
-This showcase is meant to be cloned and run locally. It deliberately contains **no product source code, no infrastructure layout, no secrets**.
-
 ## License
 
 [MIT](LICENSE) for this repository. The Digital Twin Video DT product, name, logo and brand belong to Software DT.
