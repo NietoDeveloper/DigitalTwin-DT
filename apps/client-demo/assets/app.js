@@ -11,11 +11,6 @@ function renderServices() {
     (s) => `<div class="card"><h3>${s.name}</h3><p>${s.desc}</p></div>`
   ).join
 
-  const select = document.getElementById("service");
-  select.innerHTML = MOCK_SERVICES.map(
-    (s) => `<option value="${s.id}">${s.name}
-  ).join(""
-function hand
   e.preventDefault();
   const name = document.getElementById("naice}" para el ${date}
     quedaría registrada. En la versión real esto se conecta al panel administrativo
