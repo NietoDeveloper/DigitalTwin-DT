@@ -22,8 +22,7 @@ table{width:100%;border-collapse:collapse}
 .dot.red{background:var(--red)}
 
 .inbox-columns{display:grid;grid-template-columns-elevated);padding-bottom:8px}
-
-.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:16px}
+-fit,minmax(180px,1fr));gap:16px}
 .card{background:var(--surface);border:1px solid var(--elevated);border-radius:8px;padding:16px}
 .card h3{margin:0 0 6px;color:var(--gold);font-size:15px}
 .card p{margin:0;color:#999;font-size:13px}
