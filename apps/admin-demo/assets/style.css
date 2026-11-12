@@ -16,10 +16,7 @@
 .tagline{color:#999;margin:0 0 24px}
 #login-btn{
   background:var(--gold);color:#000;border:none;padding:12px 24px;
-  border-radius:6px;font-weight:700;cursor:pointer;font-size:14px;
-}
-.fineprint{font-size:11px;color:#666;margin-top:16px;max-width:280px}
-
+  border-radius:6px;font-weight:700;curs
 /* Dashboard layout */
 .demo-banner{
   background:var(--gold);color:#000;text-align:center;font-weight:700;
