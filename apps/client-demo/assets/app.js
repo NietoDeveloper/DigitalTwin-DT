@@ -6,13 +6,7 @@ const MOCK_SERVICES = [
 ];
 
 function renderServices() {
-  const list = document.getElementById("services-list");
-  list.innerHTML = MOCK_SERVICES.map(
-    (s) => `<div class="card"><h3>${s.name}</h3><p>${s.desc}</p></div>`
-  ).join
-
-  e.preventDefault();
-}
+  const list = document.get
 
 renderServices();
 document.getElementById("booking-form").addEventListener("submit", handleBooking);
