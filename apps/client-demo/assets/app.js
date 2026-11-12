@@ -12,11 +12,6 @@ function renderServices() {
   ).join
 
   e.preventDefault();
-  const name = document.getElementById("naice}" para el ${date}
-    quedaría registrada. En la versión real esto se conecta al panel administrativo
-    en tiempo real (ver <em>admin-demo</em>).
-  `;
-  e.target.reset();
 }
 
 renderServices();
