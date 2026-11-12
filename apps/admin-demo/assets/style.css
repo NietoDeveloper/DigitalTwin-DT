@@ -16,10 +16,6 @@
 .dashboard{
   display:grid;
   grid-template-columns:220px 1fr;
-  grid-template-rows:auto 1fr;
-  min-height:100vh;
-}
-.sidebar{id var(--elevated);
   padding:20px;
 }
 .sidebar h2{font-size:18px;margin:0 0 24px}
