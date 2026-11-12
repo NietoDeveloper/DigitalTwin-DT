@@ -7,6 +7,3 @@ const MOCK_SERVICES = [
 
 function renderServices() {
   const list = document.get
-
-renderServices();
-document.getElementById("booking-form").addEventListener("submit", handleBooking);
