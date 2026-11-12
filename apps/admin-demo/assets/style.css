@@ -18,10 +18,7 @@
   grid-template-columns:220px 1fr;:column;gap:6px}
 .nav-btn{s
 main{padding:32px}
-.section{display:none}fit,minmax(160px,1fr));gap:16px}
-.tabs{display:flex;gap:8px;margin-bottom:16px}
-.tab-btn{
-  background:var(--surface);border:1px solid var(--elevated);color:#999;
+.section{display:none}fit,minmax(160px,1fr));gap:16px}:#999;
   padding:8px 14px;border-radius:6px;cursor:pointer;font-size:13px;
 }
 .tab-btn.active{color:var(--gold);border-color:var(--gold)}
