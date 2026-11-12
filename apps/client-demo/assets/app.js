@@ -19,13 +19,7 @@ function renderServices() {
 
 function handleBooking(e) {
   e.preventDefault();
-  const name = document.getElementById("name").value;
-  const service = document.getElementById("service").selectedOptions[0].text;
-  const date = document.getElementById("date").value;
-
-  const result = document.getElementById("booking-result");
-  result.innerHTML = `
-    ✅ <strong>Simulado:</strong> ${name}, tu cita de "${service}" para el ${date}
+  const name = document.getElementById("name").val de "${service}" para el ${date}
     quedaría registrada. En la versión real esto se conecta al panel administrativo
     en tiempo real (ver <em>admin-demo</em>).
   `;
