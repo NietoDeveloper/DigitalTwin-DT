@@ -13,7 +13,7 @@ function renderServices() {
 
   const select = document.getElementById("service");
   select.innerHTML = MOCK_SERVICES.map(
-    (s) => `<option value="${s.id}">${s.name}</option>`
+    (s) => `<option value="${s.id}">${s.name}
   ).join("");
 }
 
