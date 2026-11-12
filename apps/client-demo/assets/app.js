@@ -9,7 +9,7 @@ function renderServices() {
   const list = document.getElementById("services-list");
   list.innerHTML = MOCK_SERVICES.map(
     (s) => `<div class="card"><h3>${s.name}</h3><p>${s.desc}</p></div>`
-  ).join("");
+  ).join
 
   const select = document.getElementById("service");
   select.innerHTML = MOCK_SERVICES.map(
