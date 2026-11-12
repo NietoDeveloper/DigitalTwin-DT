@@ -11,9 +11,7 @@
 *{box-sizing:border-box}
 (--gold)}
 
-/* Login */
-.login-screen{
-  height:100vh;display:flex;align-items:center;justify-content:center;
+/* Login */ify-content:center;
 }
 .login-box{text-align:center;background:var(--surface);padding:48px;border-radius:12px;border:1px solid var(--elevated)}
 .login-box h1{font-size:32px;margin:0 0 4px}
