@@ -5,6 +5,4 @@ export default {
     extend: {
       colors: {
         brand: '#D4AF37', gold: '#D4AF37', cyan: '#00D4FF',
-        'bg-base': '#0A0A0F', 'bg-surface': '#12121A', 'bg-elevated': '#18181F', 'bg-line': '#1E1E2E',
-        g
-};
+
