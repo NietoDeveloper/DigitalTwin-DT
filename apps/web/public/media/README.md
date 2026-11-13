@@ -6,5 +6,5 @@ Drop your files here. Missing files render a clean "coming soon" frame, so nothi
 |---|---|
 | `apartment.jpg` / `apartment.mp4` | Apartment (≈ 50 photos + 1 min video) |
 | `warehouse.jpg` / `warehouse.mp4` | Warehouse fit-out |
-| `building.jpg` / `building.mp4` | Whole building |
+| `building.jpg` / `building.mp4` | 
 | `object.jpg` / `object.mp4` | Small
