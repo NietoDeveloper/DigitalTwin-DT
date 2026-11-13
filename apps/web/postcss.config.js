@@ -1,1 +1,1 @@
-export default { plugins: { tailwindc
+export default { plugins: { tail
