@@ -12,16 +12,7 @@ export function createApp(corsOrigins: string[]): Express {
   const collections = {
     plans: content.plans,
     steps: content.steps,
-    feature
-  } as const;
-
-  app.get('/api/health', (_req, res) => {
-    res.json({ data: { status: 'ok', uptimeSec: Math.round((Date.now() - startedAt) / 1000) } });
-  });
-
-  for (const [name, data] of Object.entries(collections)) {
-    app.get(`/api/${name}`, (_req, res) => {
-      res.set('Cache-Control', 'public, max-age=60');
+    feature=60');
       res.json({ data, meta: { pricesAsOf: content.PRICES_AS_OF } });
     });
   }
