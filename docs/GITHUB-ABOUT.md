@@ -8,5 +8,3 @@
 
 **Website:** https://softwaredt.com
 
-**Topics** (max 20):
-`digital-twin` `3d-gaussian-splatting` `typescrip
