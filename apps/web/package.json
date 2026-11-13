@@ -10,7 +10,7 @@
     "typecheck": "tsc --noEmit",
     "test": "vitest run"
   },
-  "dependencies": {
+  "dependen
     "@dtdt/content": "*",
     "@react-three/fiber": "^
     "react-dom": "^18.3.1",
