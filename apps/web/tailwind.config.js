@@ -8,9 +8,5 @@ export default {
         'bg-base': '#0A0A0F', 'bg-surface': '#12121A', 'bg-elevated': '#18181F', 'bg-line': '#1E1E2E',
         gainsboro: '#DCDCDC',
         'status-ok': '#22C55E', 'status-warn': '#FB923C', 'status-info': '#38BDF8',
-      },
-      fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'], mono: ['"JetBrains Mono"', 'monospace'] },
-    },
-  },
-  plugins: [],
+
 };
