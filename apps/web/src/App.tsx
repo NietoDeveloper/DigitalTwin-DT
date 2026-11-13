@@ -6,15 +6,6 @@ import { Nav } from './components/Nav';
 import { Compare, Cta, Faq, Features, How, Pricing, Tech } from './components/Sections';
 import { useSite } from './lib/store';
 
-export function App() {
-  const load = useSite((s) => s.load);
-  useEffect(() => load(), [load]);
-  return (
-    <>
-      <Nav />
-      <main>
-        <Hero />
-        <How />
         <Features />
         <Pricing />
         <Compare />
