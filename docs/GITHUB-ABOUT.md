@@ -5,6 +5,3 @@
 ```
 🐳 Digital Twin Video DT: turn video + photos into sharp 3D digital twins. Open commercial showcase: pricing, tech, examples. React · Node · C++ · AWS
 ```
-
-**Website:** https://softwaredt.com
-
