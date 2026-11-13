@@ -15,14 +15,6 @@ export function createApp(corsOrigins: string[]): Express {
     feature=60');
       res.json({ data, meta: { pricesAsOf: content.PRICES_AS_OF } });
     });
-  }
-
-  app.use('/api', (_req, res) => {
-    res.status(404).json({ error: { code: 'not_found', message: 'Unknown endpoint' } });
-  });
-
-  const onError: ErrorRequestHandler = (err, _req, res, _next) => {
-    console.error(err);
     res.status(500).json({ error: { code: 'internal', message: 'Unexpected error' } });
   };
   app.use(onError);
