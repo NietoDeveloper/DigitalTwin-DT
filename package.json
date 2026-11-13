@@ -2,13 +2,4 @@
   "name": "digital-twin-dt",
   "version": "1.0.0",
   "private": true,
-  "description": "Commercial & technical showcase of Digital Twin Video DT. Runs locally.",
-  "license": "MIT",
-  "workspaces": ["packages/*", "apps/*"],
-  "engines": { "node": ">=20" },
-  "scripts": {
-    "dev": "concurrently -n api,web -c yellow,cyan \"npm run dev -w @dtdt/api\" \"npm run dev -w @dtdt/web\"",
-    "build": "npm run build -w @dtdt/web",
-    "typecheck": "npm run typecheck --workspaces --if-present",
-    "test": "npm run test --workspaces --if-present",
-    "docker:up": "docke
+  "description"
