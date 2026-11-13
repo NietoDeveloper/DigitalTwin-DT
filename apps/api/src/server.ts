@@ -9,7 +9,3 @@ const origins = (process.env.CORS_ORIGINS ?? 'http://localhost:5173,http://local
 const server = createApp(origins).listen(port, () => {
   console.log(`[dtdt-api] http://localhost:${port}/api/health`);
 });
-
-for (const sig of ['SIGINT', 'SIGTERM'] as const) {
-  process.on(sig, () => server.close(() => process.exit(0)));
-}
