@@ -1,1 +1,1 @@
-export default { plugins: { tailwindcss: {}, au
+export default { plugins: { tailwindcss: {
