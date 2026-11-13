@@ -1,1 +1,0 @@
-import { AUTHOR, REPO_URL, SITE_
