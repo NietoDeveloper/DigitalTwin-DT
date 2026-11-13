@@ -9,4 +9,4 @@
 **Website:** https://softwaredt.com
 
 **Topics** (max 20):
-`digital-twin` `3d-gaussian-splatting` `typescript` `react` `nodejs` `cpp` `python` `docker` `aws` `threejs` `tailwindcss` `monorepo` `showcase` `construction
+`digital-twin` `3d-gaussian-splatting` `typescript` `react` `nodejs` `cpp` `python` `docker` `aws` `threejs` `tailwindcss` `monorephowcase` `construction
