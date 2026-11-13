@@ -5,4 +5,4 @@ Drop your files here. Missing files render a clean "coming soon" frame, so nothi
 | File | Used by |
 |---|---|
 | `apartment.jpg` / `apartment.mp4` | Apartment (≈ 50 photos eo) |
-| `warehouse.jpg` / `warehouse.mp
+| `warehouse.jpg` / `wa
