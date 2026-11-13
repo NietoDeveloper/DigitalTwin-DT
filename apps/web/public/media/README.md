@@ -8,5 +8,3 @@ Drop your files here. Missing files render a clean "coming soon" frame, so nothi
 | `warehouse.jpg` / `warehouse.mp4` | Warehouse fit-out |
 | `building.jpg` / `building.mp4` | Whole building |
 | `object.jpg` / `object.mp4` | Small object |
-
-Tips: photos 1600 px wide, `.jpg` under 300 KB; videos H.264 `.mp4`, 720p, under 15 MB.
