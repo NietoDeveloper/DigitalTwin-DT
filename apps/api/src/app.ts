@@ -9,14 +9,4 @@ export function createApp(corsOrigins: string[]): Express {
   app.disable('x-powered-by');
   app.use(cors({ origin: corsOrigins, methods: ['GET'] }));
 
-  const collections = {
-    plans: content.plans,
-    steps: content.steps,
-    feature=60');
-      res.json({ data, meta: { pricesAsOf: content.PRICES_AS_OF } });
-    });
-    res.status(500).json({ error: { code: 'internal', message: 'Unexpected error' } });
-  };
-  app.use(onError);
-  return app;
 }
