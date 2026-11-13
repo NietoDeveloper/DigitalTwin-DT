@@ -16,7 +16,7 @@ export function Hero() {
           Sharp digital twins from the camera you already own.
         </h1>
         <p className="mt-5 max-w-xl text-lg text-gainsboro/80">
-          Digital Twin Video DT reconstructs real spaces as navigable 3D Gaussian Splatting models. Engineering first, little AI, and a price you can read in one line: one space, one twin.
+          Digital Twin DT reconstructs real spaces as navigable 3D Gaussian Splatting models. Engineering first, little AI, and a price you can read in one line: one space, one twin.
         </p>
         <div className="mt-8 flex flex-wrap gap-3">
           <a href={SITE_URL} target="_blank" rel="noreferrer" className="btn btn-gold">Try the product</a>

@@ -38,7 +38,7 @@ export function Examples() {
     <section id="examples" className="section">
       <div className="mb-10 max-w-2xl">
         <p className="eyebrow">Examples</p>
-        <h2 className="h2">Real captures, real twins</h2>
+        <h2 className="h2">Examples from the product</h2>
         <p className="mt-3 text-gainsboro/70">Photos and videos from the product. Drop your files into <code className="font-mono text-gold">apps/web/public/media</code> and they appear here.</p>
       </div>
       <div className="grid gap-4 sm:grid-cols-2">{examples.map((e) => <Frame key={e.id} ex={e} />)}</div>

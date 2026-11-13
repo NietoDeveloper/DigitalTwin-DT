@@ -3,7 +3,7 @@
 **Description** (limit 350 chars; this one is ~150):
 
 ```
-🐳 Digital Twin Video DT: turn video + photos into sharp 3D digital twins. Open commercial showcase: pricing, tech, examples. React · Node · C++ · AWS
+🐳 Digital Twin DT: turn video + photos into sharp 3D digital twins. Open commercial showcase: pricing, tech, examples. React · Node · C++ · AWS
 ```
 
 **Website:** https://softwaredt.com

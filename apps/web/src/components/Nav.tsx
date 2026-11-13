@@ -6,7 +6,7 @@ export function Nav() {
   return (
     <header className="sticky top-0 z-40 border-b border-bg-line bg-bg-base/85 backdrop-blur">
       <div className="mx-auto flex h-14 max-w-6xl items-center justify-between px-4 sm:px-6">
-        <a href="#top" className="flex items-center gap-2 font-bold text-white" aria-label="Digital Twin Video DT, back to top">
+        <a href="#top" className="flex items-center gap-2 font-bold text-white" aria-label="Digital Twin DT, back to top">
           <img src="/logo-mark.png" alt="" className="h-7 w-7" />
           <span className="hidden sm:inline">Digital Twin <span className="text-gold">DT</span></span>
         </a>

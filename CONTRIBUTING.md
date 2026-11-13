@@ -7,4 +7,4 @@ This is a commercial and technical showcase. Corrections to facts, prices or lin
 3. Content lives in `packages/content/src/data.ts`. Cite a source for any competitor figure.
 4. Open a pull request describing what changed and why.
 
-The Digital Twin Video DT product code is closed source and is not part of this repository.
+The Digital Twin DT product code is closed source and is not part of this repository.

@@ -104,7 +104,7 @@ export function Compare() {
               </tr>
             ))}
             <tr className="border-t border-gold/40 bg-bg-elevated">
-              <td className="p-3 font-semibold text-gold">Digital Twin Video DT</td>
+              <td className="p-3 font-semibold text-gold">Digital Twin DT</td>
               <td className="p-3">$6 to $339 / month</td>
               <td className="p-3 text-gainsboro/70">Per-space pricing, any camera, no hardware to buy</td>
               <td className="p-3"><a className="text-gold hover:underline" href="#pricing">plans</a></td>

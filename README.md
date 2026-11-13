@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:D4AF37,50:3a2f0b,100:0A0A0F&height=140&section=header&text=Digital%20Twin%20Video%20DT&fontColor=ffffff&fontSize=36&animation=fadeIn" alt="Digital Twin Video DT"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:D4AF37,50:3a2f0b,100:0A0A0F&height=140&section=header&text=Digital%20Twin%20Video%20DT&fontColor=ffffff&fontSize=36&animation=fadeIn" alt="Digital Twin DT"/>
 </p>
 
 <p align="center">
@@ -16,7 +16,7 @@
   <img alt="License" src="https://img.shields.io/badge/License-MIT-D4AF37"/>
 </p>
 
-> **What this repo is.** A small, open website that explains what **Digital Twin Video DT** does, how it is priced, what it is built with, and how it compares to the market. **It is not the product.** The product code is closed source and lives elsewhere. Here you can read, run and copy everything, because it is all commercial information.
+> **What this repo is.** A small, open website that explains what **Digital Twin DT** does, how it is priced, what it is built with, and how it compares to the market. **It is not the product.** The product code is closed source and lives elsewhere. Here you can read, run and copy everything, because it is all commercial information.
 
 ## What the product does
 
@@ -104,7 +104,7 @@ This showcase is meant to be cloned and run locally. It deliberately contains **
 
 ## License
 
-[MIT](LICENSE) for this repository. The Digital Twin Video DT product, name, logo and brand belong to Software DT.
+[MIT](LICENSE) for this repository. The Digital Twin DT product, name, logo and brand belong to Software DT.
 
 <p align="center">
   Built by <a href="https://github.com/NietoDeveloper"><b>Manuel Nieto</b></a> · <a href="https://softwaredt.com">softwaredt.com</a> · Software DT
