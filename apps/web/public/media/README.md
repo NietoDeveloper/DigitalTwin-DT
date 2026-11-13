@@ -1,2 +1,1 @@
-# Media for the Examples section
-
+# Media for the Examples 
