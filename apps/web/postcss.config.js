@@ -1,1 +1,1 @@
-export default { pl
+export default 
