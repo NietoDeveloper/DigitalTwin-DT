@@ -12,11 +12,7 @@ export function createApp(corsOrigins: string[]): Express {
   const collections = {
     plans: content.plans,
     steps: content.steps,
-    features: content.features,
-    tech: content.tech,
-    competitors: content.competitors,
-    examples: content.examples,
-    faq: content.faq,
+    feature
   } as const;
 
   app.get('/api/health', (_req, res) => {
