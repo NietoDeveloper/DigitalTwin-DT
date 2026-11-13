@@ -1,1 +1,1 @@
-export default { plugins: { tail
+export default { plugins: {
