@@ -1,3 +1,3 @@
 # Media for the Examples section
 
-Drop your files here. Missing files render a clea
+Drop your files here. Missing files r
