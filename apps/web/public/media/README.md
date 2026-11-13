@@ -1,3 +1,3 @@
 # Media for the Examples section
 
-Drop your file
+Drop your
