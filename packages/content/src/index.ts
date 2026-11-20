@@ -1,1 +1,1 @@
-export * fr
+expo
