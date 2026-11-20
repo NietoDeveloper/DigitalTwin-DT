@@ -20,5 +20,3 @@ export const steps: Step[] = [
 export const features: Feature[] = [
   { id: 'splat', title: 'Sharp 3D Gaussian Splatting', body: 'Photoreal, navigable twins from ordinary video and photos. No special camera.', status: 'available' },
   { id: 'little-ai', title: 'Little AI, mostly engineering', body: 'Geometry comes from classic computer vision. Generative inpainting is capped at 4% of a scene.', status: 'available' },
-  { id: 'spaces', title: 'Simple per-space pricing', body: 'One space = one twin. No credits maths, no per-minute surprises.', status: 'available' },
-  { id: 'share', title: 'Share by link', body: 'Send a read-only twin to a client or inspector. No install required.', status: 'available' },
