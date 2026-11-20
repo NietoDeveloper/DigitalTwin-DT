@@ -2,7 +2,4 @@
   "name": "digital-twin-dt",
   "version": "1.0.0",
   "private": true,
-  "description": "Public commercial showcase of Digital Twin DT: video + photos in, navigable 3D digital twin out.",
-  "license": "MIT",
-  "type": "module",
-  "workspaces": [
+  "desc
