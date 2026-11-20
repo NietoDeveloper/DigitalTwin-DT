@@ -16,5 +16,3 @@ export const plans: Plan[] = [
   { id: 'enterprise', name: 'Enterprise', priceUsd: null, spaces: 0, capture: { photos: 3000, videoMin: 40 }, blurb: 'Custom volume, limits and support. Contact us.' },
 ];
 
-export const steps: Step[] = [
-export const features: Feature[] = [
