@@ -28,5 +28,3 @@ export const features: Feature[] = [
     { name: 'Three.js / R3F', note: 'In-browser 3D viewer' },
     { name: 'Tailwind CSS', note: 'Design tokens, responsive 310 px to 2100 px' },
     { name: 'Zustand', note: 'Small, predictable state' },
-  ] },
-  { group: 'Services', items: [
