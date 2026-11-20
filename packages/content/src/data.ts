@@ -51,7 +51,3 @@ export const features: Feature[] = [
 
 export const competitors: Competitor[] = [
   { name: 'KIRI Engine Pro', price: '$79.99 / year (~$6.66 / mo)', note: '300–500 photos per scan', source: 'https://www.kiriengine.app/pricing' },
-  { name: 'Polycam Business', price: '$34 / month ($400 / year)', note: 'Self-reported on competitor pricing pages', source: 'https://poly.cam/blog/best-matterport-alternatives-for-small-teams-creators-in-2026' },
-  { name: 'Matterport Professional', price: '$58 / month (annual)', note: 'Figure reported by a competitor (Polycam). Verify on matterport.com', source: 'https://poly.cam/blog/best-matterport-alternatives-for-small-teams-creators-in-2026' },
-  { name: 'Matterport Business', price: '$296 / month (annual)', note: 'Figure reported by a competitor (Polycam). Verify on matterport.com', source: 'https://poly.cam/blog/best-matterport-alternatives-for-small-teams-creators-in-2026' },
-  { name: 'DroneDeploy Flight & Analysis', price: '$4,188 / year (~$349 / mo)', note: 'Drone-first workflow', source: 'https://dronedeploy.com/pricing' },
