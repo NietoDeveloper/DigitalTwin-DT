@@ -1,1 +1,0 @@
-import type { Competitor, Example, Faq, Feature, Plan, Step, Tech } from './types.js';
