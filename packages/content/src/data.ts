@@ -66,6 +66,4 @@ export const examples: Example[] = [
 ];
 
 export const faq: Faq[] = [
-  { q: 'Do I need a special camera?', a: 'No. Video and photos from any camera work. The best result comes from combining both: video for coverage, photos for sharpness.' },
-  { q: 'How long does a twin take?', a: 'The target is 2 to 3 hours at most, ideally under 2. It is a target, not a guarantee, and it depends on the size of the capture.' },
-  { q: 'What does "1 space" mean?', a: 'One sp
+  { q: 'Do I need a 
