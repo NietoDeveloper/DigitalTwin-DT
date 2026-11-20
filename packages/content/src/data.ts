@@ -45,5 +45,3 @@ export const features: Feature[] = [
     { name: 'AWS', note: 'Compute and object storage' },
     { name: 'Docker', note: 'Reproducible environments' },
     { name: 'CI/CD', note: 'Automated checks on every change' },
-    { name: 'Vercel', note: 'Static front-end hosting' },
-
