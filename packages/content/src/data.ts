@@ -17,13 +17,6 @@ export const plans: Plan[] = [
 ];
 
 export const steps: Step[] = [
-  { id: 'capture', title: 'Capture', body: 'A few sharp photos for detail plus a short video for coverage. Any camera works.' },
-  { id: 'upload', title: 'Upload', body: 'Resumable direct-to-storage upload, so large captures survive a bad connection.' },
-  { id: 'reconstruct', title: 'Reconstruct', body: 'A native C++ / Python pipeline estimates camera poses and builds a 3D Gaussian Splatting model.' },
-  { id: 'verify', title: 'Verify', body: 'A quality gate checks the result against a fidelity threshold before it reaches you.' },
-  { id: 'explore', title: 'Explore & share', body: 'Walk the twin in the browser, measure, annotate and share a link.' },
-];
-
 export const features: Feature[] = [
   { id: 'splat', title: 'Sharp 3D Gaussian Splatting', body: 'Photoreal, navigable twins from ordinary video and photos. No special camera.', status: 'available' },
   { id: 'little-ai', title: 'Little AI, mostly engineering', body: 'Geometry comes from classic computer vision. Generative inpainting is capped at 4% of a scene.', status: 'available' },
