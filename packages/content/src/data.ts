@@ -32,5 +32,3 @@ export const features: Feature[] = [
   { group: 'Services', items: [
     { name: 'Node.js + TypeScript', note: 'Strict, validated APIs' },
     { name: 'MongoDB', note: 'Product and operational data' },
-    { name: 'Redis', note: 'Queues and caching' },
-    { name: 'Wompi', note: 'Payments for Colombia / LatAm' },
