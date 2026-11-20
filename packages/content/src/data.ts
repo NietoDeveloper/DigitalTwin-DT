@@ -14,5 +14,3 @@ export const plans: Plan[] = [
   { id: 'scale', name: 'Scale', priceUsd: 249, spaces: 20, capture: { photos: 850, videoMin: 10 }, blurb: 'Teams and portfolios of buildings.' },
   { id: 'max', name: 'Max', price 339, spaces: 30, capture: { photos: 850, videoMin: 10 }, blurb: 'High volume, one predictable bill.' },
   { id: 'enterprise', name: 'Enterprise', priceUsd: null, spaces: 0, capture: { photos: 3000, videoMin: 40 }, blurb: 'Custom volume, limits and support. Contact us.' },
-];
-
