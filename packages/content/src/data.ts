@@ -23,6 +23,3 @@ export const features: Feature[] = [
   { id: 'spaces', title: 'Simple per-space pricing', body: 'One space = one twin. No credits maths, no per-minute surprises.', status: 'available' },
   { id: 'share', title: 'Share by link', body: 'Send a read-only twin to a client or inspector. No install required.', status: 'available' },
   { id: 'measure', title: 'Measurements & annotations',
-  { group: 'Interface', items: [
-    { name: 'React + TypeScript', note: 'Typed UI end to end' },
-    { name: 'Three.js / R3F', note: 'In-
