@@ -36,4 +36,4 @@ export const features: Feature[] = [
     { name: 'Wompi', note: 'Payments for Colombia / LatAm' },
   ] },
   { group: 'Reconstruction', items: [
-    { name: 'C++17', note: 'Performance-critical vision kernels' },
+    { name: 'C++17', note: 'Performance-critical vision kernel
