@@ -22,4 +22,3 @@ export const features: Feature[] = [
   { id: 'little-ai', title: 'Little AI, mostly engineering', body: 'Geometry comes from classic computer vision. Generative inpainting is capped at 4% of a scene.', status: 'available' },
   { id: 'spaces', title: 'Simple per-space pricing', body: 'One space = one twin. No credits maths, no per-minute surprises.', status: 'available' },
   { id: 'share', title: 'Share by link', body: 'Send a read-only twin to a client or inspector. No install required.', status: 'available' },
-  { id: 'measure', title: 'Measurements & annotations',
