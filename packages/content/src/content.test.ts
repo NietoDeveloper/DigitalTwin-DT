@@ -6,5 +6,3 @@ describe('public content', () => {
     expect(new Set(plans.map((p) => p.id)).size).toBe(plans.length);
     const paid = plans.filter((p) => p.priceUsd).map((p) => p.priceUsd!);
     expect(paid).toEqual([...paid].sort((a, b) => a - b));
-  });
-
