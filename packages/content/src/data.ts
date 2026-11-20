@@ -63,7 +63,3 @@ export const examples: Example[] = [
   { id: 'warehouse', title: 'Warehouse fit-out', caption: 'About 400 photos + 5 minutes of video.', photo: 'warehouse.jpg', video: 'warehouse.mp4' },
   { id: 'building', title: 'Whole building', caption: 'Captured floor by floor, one twin.', photo: 'building.jpg', video: 'building.mp4' },
   { id: 'object', title: 'Small object', caption: 'A 1 × 1 m object, studio sharp.', photo: 'object.jpg', video: 'object.mp4' },
-];
-
-export const faq: Faq[] = [
-  { q: 'Do I need a 
