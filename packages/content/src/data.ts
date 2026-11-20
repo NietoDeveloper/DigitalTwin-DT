@@ -43,5 +43,3 @@ export const features: Feature[] = [
   ] },
   { group: 'Cloud & delivery', items: [
     { name: 'AWS', note: 'Compute and object storage' },
-    { name: 'Docker', note: 'Reproducible environments' },
-    { name: 'CI/CD', note: 'Automated checks on every change' },
