@@ -12,7 +12,7 @@ describe('public content', () => {
     expect(plans.find((p) => p.id === 'starter')!.capture).toEqual({ photos: 50, videoMin: 1 });
   });
 
-  it('cites competitors over https', () => {
+  it('cites competitors over https', (
     for (const c of competitors) expect(c.source.startsWith('https://')).toBe(true);
   });
 
