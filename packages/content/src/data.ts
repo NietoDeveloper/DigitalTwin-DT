@@ -18,5 +18,3 @@ export const plans: Plan[] = [
 
 export const steps: Step[] = [
 export const features: Feature[] = [
-  { id: 'splat', title: 'Sharp 3D Gaussian Splatting', body: 'Photoreal, navigable twins from ordinary video and photos. No special camera.', status: 'available' },
-  { id: 'little-ai', title: 'Little AI, mostly engineering', body: 'Geometry comes from classic computer vision. Generative inpainting is capped at 4% of a scene.', status: 'available' },
