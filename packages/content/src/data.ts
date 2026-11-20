@@ -60,5 +60,4 @@ export const competitors: Competitor[] = [
 
 export const examples: Example[] = [
   { id: 'apartment', title: 'Apartment', caption: 'About 50 photos + 1 minute of video.', photo: 'apartment.jpg', video: 'apartment.mp4' },
-  { id: 'warehouse', title: 'Warehouse fit-out', caption: 'About 400 photos + 5 minutes of video.', photo: 'warehouse.jpg', video: 'warehouse.mp4' },
-  { id: 
+  { id: 'ware
