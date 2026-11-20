@@ -10,16 +10,3 @@
     "apps/*"
   ],
   "engines": {
-    "node": ">=20"
-  },
-  "scripts": {
-    "dev": "concurrently -k -n api,web -c yellow,cyan \"npm:dev:api\" \"npm:dev:web\"",
-    "dev:api": "npm run dev -w @dtdt/api",
-    "dev:web": "npm run devcompose down"
-  },
-  "devDependencies": {
-    "concurrently": "^9.0.1",
-    "typescript": "^5.5.4",
-    "vitest": "^2.1.0"
-  }
-}
