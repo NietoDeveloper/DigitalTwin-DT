@@ -25,4 +25,4 @@ export const features: Feature[] = [
   { id: 'measure', title: 'Measurements & annotations',
   { group: 'Interface', items: [
     { name: 'React + TypeScript', note: 'Typed UI end to end' },
-    { name: 'Three.js / R3F', note: 'In-browser 
+    { name: 'Three.js / R3F', note: 'In-brow
