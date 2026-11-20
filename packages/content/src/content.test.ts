@@ -17,4 +17,4 @@ describe('public content', () => {
 
 
   it('references example files by bare name (kept in apps/web/public/media)', () => {
-    for (const e of examples) for (const f of [e.photo, e.video]) if (f) expect(f).toMatch(/^[\w.-]+\.(jpg|png|webp|mp4|webm)$/
+    for (const e of examples) for (const f .photo, e.video]) if (f) expect(f).toMatch(/^[\w.-]+\.(jpg|png|webp|mp4|webm)$/
