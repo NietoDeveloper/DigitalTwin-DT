@@ -49,5 +49,3 @@ export const features: Feature[] = [
   ] },
 ];
 
-export const competitors: Competitor[] = [
-  { name: 'KIRI Engine Pro', price: '$79.99 / year (~$6.66 / mo)', note: '300–500 photos per scan', source: 'https://www.kiriengine.app/pricing' },
