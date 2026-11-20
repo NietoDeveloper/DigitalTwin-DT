@@ -41,5 +41,4 @@ export const features: Feature[] = [
     { name: '3D Gaussian Splatting', note: 'Compact .splat output' },
     { name: 'GPU acceleration', note: 'For the fidelity profile' },
   ] },
-  { group: 'Cloud & delivery', items: [
-    { name: 'AWS', note: 'Compute and object storage' },
+  { 
