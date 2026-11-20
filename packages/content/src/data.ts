@@ -34,6 +34,3 @@ export const features: Feature[] = [
     { name: 'MongoDB', note: 'Product and operational data' },
     { name: 'Redis', note: 'Queues and caching' },
     { name: 'Wompi', note: 'Payments for Colombia / LatAm' },
-  ] },
-  { group: 'Reconstruction', items: [
-    { name: 'C++17', note: 'Performance-critical vision kernel
