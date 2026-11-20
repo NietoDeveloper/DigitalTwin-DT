@@ -5,7 +5,4 @@ coverage/
 .env
 .env.*
 !.env.example
-.DS_Store
-.vscode/
-.idea/
-.
+.DS_S
