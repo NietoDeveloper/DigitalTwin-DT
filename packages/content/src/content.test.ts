@@ -3,4 +3,4 @@ import { competitors, examples, plans } from './index';
 
 describe('public content', () => {
   it('has unique plan ids and ascending paid prices', () => {
-    expect(new Set(plans.map((p) => p.id)).size).toBe(p
+    expect(new Set(plans.map((p) => p.id)
