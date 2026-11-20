@@ -8,7 +8,3 @@ export const PRICES_AS_OF = 'Nov 2026';
 export const plans: Plan[] = [
   { id: 'free', name: 'Free', priceUsd: 0, spaces: 0, capture: null, blurb: 'Explore demo twins and the viewer. No processing included.' },
   { id: 'starter', name: 'Starter', priceUsd: 6, spaces: 3, capture: { photos: 50, videoMin: 1 }, blurb: 'Apartments, rooms and small objects.' },
-  { id: 'plus', name: 'Plus', priceUsd: 24, spaces: 10, capture: { photos: 50, videoMin: 1 }, blurb: 'Independent pros who scan every week.' },
-  { id: 'pro', name: 'Pro', priceUsd: 55, spaces: 10, capture: { photos: 400, videoMin: 5 }, highlight: true, blurb: 'Warehouses, shops and work sites, with higher fidelity profile.' },
-  { id: 'business', name: 'Business', priceUsd: 149, spaces: 8, capture: { photos: 850, videoMin: 10 }, blurb: 'Whole buildings, split by floor or zone.' },
-  { id: 'scale', name: 'Scale', priceUsd: 249, spaces: 20, capture: { photos: 850, videoMin: 10 }, blurb: 'Teams and portfolios of buildings.' },
