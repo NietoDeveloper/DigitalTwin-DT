@@ -15,14 +15,7 @@
   "scripts": {
     "dev": "concurrently -k -n api,web -c yellow,cyan \"npm:dev:api\" \"npm:dev:web\"",
     "dev:api": "npm run dev -w @dtdt/api",
-    "dev:web": "npm run dev -w @dtdt/web",
-    "build": "npm run build -w @dtdt/web",
-    "typecheck": "npm run typecheck --workspaces --if-present",
-    "test": "vitest run",
-    "check:public": "node scripts/check-public.mjs",
-    "verify": "npm run typecheck && npm test && npm run check:public && npm run build",
-    "docker:up": "docker compose up --build",
-    "docker:down": "docker compose down"
+    "dev:web": "npm run devcompose down"
   },
   "devDependencies": {
     "concurrently": "^9.0.1",
