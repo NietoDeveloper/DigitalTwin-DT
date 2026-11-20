@@ -12,5 +12,5 @@ describe('public content', () => {
     expect(plans.find((p) => p.id === 'starter')!.capture).toEqual({ photos: 50, videoMin: 1 });
   });
 
-  it('cites competitors over https', (
+  it('cites competitors over
     for (const c of co
