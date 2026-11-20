@@ -38,7 +38,3 @@ export const features: Feature[] = [
   { group: 'Reconstruction', items: [
     { name: 'C++17', note: 'Performance-critical vision kernels' },
     { name: 'Python', note: 'Orchestration and workers' },
-    { name: '3D Gaussian Splatting', note: 'Compact .splat output' },
-    { name: 'GPU acceleration', note: 'For the fidelity profile' },
-  ] },
-  { 
