@@ -6,7 +6,3 @@
   "license": "MIT",
   "type": "module",
   "workspaces": [
-    "packages/*",
-    "apps/*"
-  ],
-  "engines": {
