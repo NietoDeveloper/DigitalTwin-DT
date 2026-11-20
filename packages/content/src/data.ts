@@ -22,13 +22,7 @@ export const features: Feature[] = [
   { id: 'little-ai', title: 'Little AI, mostly engineering', body: 'Geometry comes from classic computer vision. Generative inpainting is capped at 4% of a scene.', status: 'available' },
   { id: 'spaces', title: 'Simple per-space pricing', body: 'One space = one twin. No credits maths, no per-minute surprises.', status: 'available' },
   { id: 'share', title: 'Share by link', body: 'Send a read-only twin to a client or inspector. No install required.', status: 'available' },
-  { id: 'measure', title: 'Measurements & annotations', body: 'Measure distances and pin notes directly on the twin.', status: 'in-progress' },
-  { id: 'bim', title: 'Plan / BIM comparison', body: 'Compare what was built against the plan. Starting simple, growing from there.', status: 'in-progress' },
-  { id: 'track', title: 'Structural element tracking', body: 'Follow beams and other elements between captures of the same site.', status: 'roadmap' },
-  { id: 'live', title: 'Live option', body: 'Near-live updates on top of the offline-first pipeline.', status: 'roadmap' },
-];
-
-export const tech: Tech[] = [
+  { id: 'measure', title: 'Measurements & annotations',
   { group: 'Interface', items: [
     { name: 'React + TypeScript', note: 'Typed UI end to end' },
     { name: 'Three.js / R3F', note: 'In-browser 3D viewer' },
@@ -76,6 +70,4 @@ export const faq: Faq[] = [
   { q: 'How long does a twin take?', a: 'The target is 2 to 3 hours at most, ideally under 2. It is a target, not a guarantee, and it depends on the size of the capture.' },
   { q: 'What does "1 space" mean?', a: 'One space is one digital twin. Updating an existing twin with a new capture uses another space.' },
   { q: 'How accurate is it?', a: 'We aim for about 97% fidelity on the fidelity profile. That is an engineering target that we are still validating with real captures, not a published benchmark.' },
-  { q: 'Is the product source code here?', a: 'No. This repository is a commercial and technical showcase only. The product is closed source.' },
-  { q: 'Which countries are supported?', a: 'We start in Colombia and Latin America, with worldwide availability planned. Prices are in USD.' },
-];
+  { q: 'Is the product so
