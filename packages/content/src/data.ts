@@ -68,6 +68,4 @@ export const examples: Example[] = [
 export const faq: Faq[] = [
   { q: 'Do I need a special camera?', a: 'No. Video and photos from any camera work. The best result comes from combining both: video for coverage, photos for sharpness.' },
   { q: 'How long does a twin take?', a: 'The target is 2 to 3 hours at most, ideally under 2. It is a target, not a guarantee, and it depends on the size of the capture.' },
-  { q: 'What does "1 space" mean?', a: 'One space is one digital twin. Updating an existing twin with a new capture uses another space.' },
-  { q: 'How accurate is it?', a: 'We aim for about 97% fidelity on the fidelity profile. That is an engineering target that we are still validating with real captures, not a published benchmark.' },
-  { q: 'Is the prod
+  { q: 'What does "1 space" mean?', a: 'One sp
