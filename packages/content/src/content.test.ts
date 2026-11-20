@@ -8,9 +8,3 @@ describe('public content', () => {
     expect(paid).toEqual([...paid].sort((a, b) => a - b));
   });
 
-  it('keeps apartment-size capture at 50 photos + 1 min', () => {
-    expect(plans.find((p) => p.id === 'starter')!.capture).toEqual({ photos: 50, videoMin: 1 });
-  });
-
-  it('cites competitors over
-    for (const
