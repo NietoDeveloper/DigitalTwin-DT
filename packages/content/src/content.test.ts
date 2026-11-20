@@ -13,4 +13,4 @@ describe('public content', () => {
   });
 
   it('cites competitors over
-    for (const c of co
+    for (const
