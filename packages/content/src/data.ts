@@ -55,9 +55,3 @@ export const competitors: Competitor[] = [
   { name: 'Matterport Professional', price: '$58 / month (annual)', note: 'Figure reported by a competitor (Polycam). Verify on matterport.com', source: 'https://poly.cam/blog/best-matterport-alternatives-for-small-teams-creators-in-2026' },
   { name: 'Matterport Business', price: '$296 / month (annual)', note: 'Figure reported by a competitor (Polycam). Verify on matterport.com', source: 'https://poly.cam/blog/best-matterport-alternatives-for-small-teams-creators-in-2026' },
   { name: 'DroneDeploy Flight & Analysis', price: '$4,188 / year (~$349 / mo)', note: 'Drone-first workflow', source: 'https://dronedeploy.com/pricing' },
-  { name: 'SkyeBrowse', price: '$24.99 / $49.99 / $199 per model', note: 'Per-model pricing', source: 'https://www.skyebrowse.com/news/posts/best-digital-twin-software.md' },
-];
-
-export const examples: Example[] = [
-  { id: 'apartment', title: 'Apartment', caption: 'About 50 photos + 1 minute of video.', photo: 'apartment.jpg', video: 'apartment.mp4' },
-  { id: 'ware
