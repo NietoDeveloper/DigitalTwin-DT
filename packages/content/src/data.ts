@@ -12,7 +12,7 @@ export const plans: Plan[] = [
   { id: 'pro', name: 'Pro', priceUsd: 55, spaces: 10, capture: { photos: 400, videoMin: 5 }, highlight: true, blurb: 'Warehouses, shops and work sites, with higher fidelity profile.' },
   { id: 'business', name: 'Business', priceUsd: 149, spaces: 8, capture: { photos: 850, videoMin: 10 }, blurb: 'Whole buildings, split by floor or zone.' },
   { id: 'scale', name: 'Scale', priceUsd: 249, spaces: 20, capture: { photos: 850, videoMin: 10 }, blurb: 'Teams and portfolios of buildings.' },
-  { id: 'max', name: 'Max', priceUsd: 339, spaces: 30, capture: { photos: 850, videoMin: 10 }, blurb: 'High volume, one predictable bill.' },
+  { id: 'max', name: 'Max', price 339, spaces: 30, capture: { photos: 850, videoMin: 10 }, blurb: 'High volume, one predictable bill.' },
   { id: 'enterprise', name: 'Enterprise', priceUsd: null, spaces: 0, capture: { photos: 3000, videoMin: 40 }, blurb: 'Custom volume, limits and support. Contact us.' },
 ];
 
