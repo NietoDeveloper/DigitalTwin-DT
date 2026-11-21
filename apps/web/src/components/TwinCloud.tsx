@@ -29,6 +29,3 @@ function Building() {
         else if (side === 2) { x = w; z = else {* d; }
         pos.push(x + j, y + rnd() * 0.36, z + j);
         const c = rnd() < 0.08 ? cyan () < 0.5 ? gold : dim;
-        col.push(c.r, 
-    }
-    const g = new THR
