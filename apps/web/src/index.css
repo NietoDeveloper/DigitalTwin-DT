@@ -14,10 +14,4 @@ body { @apply bg-bg-base text-gainsboro font-sans antialiased; margin: 0; overfl
   .card-hover:hover { @apply border-gold/60 bg-bg-elevated; }
   .btn { @apply inline-flex items-center justify-center rounded-lg px-5 py-3 text-sm font-semibold transition; }
   .btn-gold { @apply bg-gold text-black hover:brightness-110; }
-  .btn-ghost { @apply border border-bg-line text-white hover:border-gold hover:text-gold; }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  html { scroll-behavior: auto; }
-  * { animation: none !important; transition: none !important; }
-}
+ 
