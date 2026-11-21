@@ -26,6 +26,3 @@ function Building() {
         const w = 1.5
         let x = 0, z = 0;
         if (side === 0) { x = t * w; z = d=== 1) { x = t * w; z = -d; }
-        else if (side === 2) { x = w; z = else {* d; }
-        pos.push(x + j, y + rnd() * 0.36, z + j);
-        const c = rnd() < 0.08 ? cyan () < 0.5 ? gold : dim;
