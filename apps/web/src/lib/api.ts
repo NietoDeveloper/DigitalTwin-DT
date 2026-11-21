@@ -22,13 +22,6 @@ export const bundled: SiteData = {
   faq: content.faq,
 };
 
-async function get<T>(name: string, signal: AbortSignal): Promise<T> {
-  const res = await fetch(`${BASE}/api/${name}`, { signal });
-  if (!res.ok) throw new Error(`${name}: HTTP ${res.status}`);
-  const json = (await res.json()) as { data: T };
-  return json.data;
-}
-
 /** Loads everything from the local API. Throws if any request fails. */
 export async function loadFromApi(signal: AbortSignal): Promise<SiteData> {
   const [plans, features, steps, tech, competitors, examples, faq] = await Promise.all([
