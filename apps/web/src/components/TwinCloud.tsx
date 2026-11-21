@@ -58,4 +58,4 @@ function hasWebGL(): boolean {
 }
 
 export function TwinCloud() {
-  if (typeof document === 'undefined' || !hasWebGL()) return <div clas
+  if (typeof document === 'undefined' || !hasWebGL()) return <di
