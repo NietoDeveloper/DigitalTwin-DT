@@ -14,4 +14,3 @@ body { @apply bg-bg-base text-gainsboro font-sans antialiased; margin: 0; overfl
   .card-hover:hover { @apply border-gold/60 bg-bg-elevated; }
   .btn { @apply inline-flex items-center justify-center rounded-lg px-5 py-3 text-sm font-semibold transition; }
   .btn-gold { @apply bg-gold text-black hover:brightness-110; }
- 
