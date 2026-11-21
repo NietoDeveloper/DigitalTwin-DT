@@ -15,7 +15,7 @@ export function App() {
       <main>
         <Hero />
         <How />
-        <Features />
+        <Features 
         <Pricing />
         <Compare />
         <Tech />
