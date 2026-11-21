@@ -8,4 +8,4 @@ export interface SiteData {
   steps: content.Step[];
   tech: content.Tech[];
   competitors: content.Competitor[];
-  examples: content.Example
+  examples: content.Ex
