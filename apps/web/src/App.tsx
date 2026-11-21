@@ -21,5 +21,4 @@ export function App() {
         <Tech />
         <Examples />
         <Faq />
-        <Cta />
-
+        <Cta
