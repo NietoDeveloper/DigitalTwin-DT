@@ -61,4 +61,4 @@ export function TwinCloud() {
   if (typeof document === 'undefined' || !hasWebGL()) return <div className="h-full w-full" aria-hidden />;
   return (
     <Bou
-      <Canvas camera={{ position: [0, 0.3, 8], fov: 45 }} dpr={[1, 1.75
+      <Canvas camera={{ position: [0, 0.3, 8], fov: 45 }} dpr=
