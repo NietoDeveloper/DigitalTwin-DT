@@ -16,5 +16,3 @@ export async function loadFromApi(signal: AbortSignal): Promise<SiteData> {
   const [plans, features, steps, tech, competitors, examples, faq] = await Promise.all([
     get<SiteData['plans']>('plans', signal),
     get<SiteData['features']>('features', signal),
-    get<SiteData['steps']>('steps', signal),
-    ge
