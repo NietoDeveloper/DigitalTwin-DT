@@ -49,5 +49,3 @@ class Boundary extends Component<{ children: ReactNode }, { failed: boolean }> {
   static getDerivedStateFromError() { return { failed: true }; }
   render() { return this.state.failed ? <div className="h-full w-full" aria-hidden /> : this.props.children; }
 }
-
-func
