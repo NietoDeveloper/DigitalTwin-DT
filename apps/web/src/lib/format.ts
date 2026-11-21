@@ -8,5 +8,4 @@ export function pricePerSpace(p: Plan): string | null {
 }
 
 export function captureLabel(p: Plan): string {
-  return p.capture ? `${p.capture.photos.toLocaleString('en-US')} photos + ${p.capture.videoMin} min video` : '—';
-}
+  return p.capture ? `${p.capture.photos.toLocaleString('en-US')} photos + ${p.capture.videoMin} min video` : '—
