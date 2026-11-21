@@ -22,6 +22,4 @@ export function App() {
         <Examples />
         <Faq />
         <Cta />
-      </
-      <footer className="border-t 
-  );
+
