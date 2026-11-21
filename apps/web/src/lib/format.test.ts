@@ -11,7 +11,6 @@ describe('format', () => {
   });
   it('capture label', () => {
     expect(captureLabel(get('business'))).toBe('850 photos + 10 min video');
-    expect(captureLabel(get('free'))).toBe('—');
-  
+    expect(captureLabel(get('free'))).toBe('—'
   it('usd', () => expect(usd(1490)).toBe('$1,490'));
 });
