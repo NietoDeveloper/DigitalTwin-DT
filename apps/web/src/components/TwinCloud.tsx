@@ -21,7 +21,7 @@ function Building() {
     const gold = new THREE.Color('#D4AF37'), cyan =REE.Color('#00D4FF'), dim = new THREE.Color('#6b5a1f');
     for (let f = 0; f < floors; f++) {
       const y = f * 0.42 - 1.7;
-      for (let i = 0; i < per; i++) {
+      for (let i = 0;
         const side = Math.floor(rnd() * 4), t = rnd() * 1, j = (rnd() - 0.5) * 0.04;
         const w = 1.5
         let x = 0, z = 0;
