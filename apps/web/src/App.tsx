@@ -7,5 +7,4 @@ import { Compare, Cta, Faq, Features, How, Pricing, Tech } from './components/Se
 import { useSite } from './lib/store';
 
 export function App() {
-  const load = useSite((s) => s.load);
-  u
+  const load = useSite((s) => s.load)
