@@ -7,5 +7,5 @@ export interface SiteData {
   features: content.Feature[];
   steps: content.Step[];
   tech: content.Tech[];
-  competitors: content.Competitor[];
+  competitors: content.Competito
   examples: content.Ex
