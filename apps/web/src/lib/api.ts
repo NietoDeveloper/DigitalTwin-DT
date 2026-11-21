@@ -11,17 +11,6 @@ export interface SiteData {
   examples: content.Example[];
   faq: content.Faq[];
 }
-
-export const bundled: SiteData = {
-  plans: content.plans,
-  features: content.features,
-  steps: content.steps,
-  tech: content.tech,
-  competitors: content.competitors,
-  examples: content.examples,
-  faq: content.faq,
-};
-
 /** Loads everything from the local API. Throws if any request fails. */
 export async function loadFromApi(signal: AbortSignal): Promise<SiteData> {
   const [plans, features, steps, tech, competitors, examples, faq] = await Promise.all([
