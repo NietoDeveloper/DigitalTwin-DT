@@ -4,5 +4,3 @@ import { captureLabel, pricePerSpace, usd } from './format';
 
 describe('format', () => {
   const get = (id: string) => plans.find((p) => p.id === id)!;
-  it('price per space', () => {
-  
