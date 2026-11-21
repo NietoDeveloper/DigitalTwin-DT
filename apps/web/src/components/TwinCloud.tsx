@@ -37,6 +37,4 @@ function Building() {
     return g;
   }, []);
   useFrame((_, dt) => { if (ref.current) ref.current.rotation.y += dt * 0.18; });
-  return (
-    <points ref={ref} geometry={geo} rotation={[0.12, 0.5, 0]} position={[1.7, 0, 0]}>
-      <pointsMaterial size={0.045} vertexColors sizeAttenuation transparent opacity={0.95} />
+  r
