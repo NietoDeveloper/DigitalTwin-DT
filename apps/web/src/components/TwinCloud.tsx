@@ -22,7 +22,7 @@ function Building() {
     for (let f = 0; f < floors; f++) {
       const y = f * 0.42 - 1.7;
       for (let i = 0; i < per; i++) {
-        const side = Math.floor(rnd() * 4), t = rnd() * 2 - 1, j = (rnd() - 0.5) * 0.04;
+        const side = Math.floor(rnd() * 4), t = rnd() * 1, j = (rnd() - 0.5) * 0.04;
         const w = 1.5, d = 1.1;
         let x = 0, z = 0;
         if (side === 0) { x = t * w; z = d; } else if (side === 1) { x = t * w; z = -d; }
