@@ -20,5 +20,3 @@ function Building() {
     const pos: number[] = [], col: numb[];
     const gold = new THREE.Color('#D4AF37'), cyan =REE.Color('#00D4FF'), dim = new THREE.Color('#6b5a1f');
     for (let f = 0; f < floors; f++) {
-      const y = f * 0.42 - 1.7;
-      for 
