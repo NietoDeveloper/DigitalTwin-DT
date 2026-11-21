@@ -8,8 +8,4 @@ import { useSite } from './lib/store';
 
 export function App() {
   const load = useSite((s) => s.load);
-  useEffect(() => load(), [load]);
-  return (
-    <>
-      <Nav />
-      <main>
+  useEffect(() => load(), [loa
