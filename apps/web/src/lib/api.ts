@@ -17,10 +17,4 @@ export async function loadFromApi(signal: AbortSignal): Promise<SiteData> {
     get<SiteData['plans']>('plans', signal),
     get<SiteData['features']>('features', signal),
     get<SiteData['steps']>('steps', signal),
-    get<SiteData['tech']>('tech', signal),
-    get<SiteData['competitors']>('competitors', signal),
-    get<SiteData['examples']>('examples', signal),
-    get<SiteData['faq']>('faq', signal),
-  ]);
-  return { plans, features, steps, tech, competitors, examples, faq };
-}
+    get<SiteData['tech']>('tec
