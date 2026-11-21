@@ -27,7 +27,6 @@ export function App() {
         <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-3 px-4 py-8 text-center text-sm text-gainsboro/60 sm:flex-row sm:px-6 sm:text-left">
           <p>Digital Twin DT, a product lassN="text-gold hover:underline" href={SITE_URL} target="_blank" rel="noreferrer">softwaredt.com</a> · Software DT</p>
           <p>Showcase by <a className="hold" href={AUTHOR.github} target="_blank" rel="noreferrer">{AUTHOR.name}</a> · <a className="hover:text-gold" href={REPO_URL} target="_blank" rel="noreferrer">MIT</a></p>
-        
       </footer>
     </>
   );
