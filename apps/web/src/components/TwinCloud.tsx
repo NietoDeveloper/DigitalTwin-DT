@@ -52,4 +52,4 @@ class Boundary extends Component<{ children: ReactNode }, { failed: boolean }> {
 
 function hasWebGL(): boolean {
   try {
-    const
+    
