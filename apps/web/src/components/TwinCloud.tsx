@@ -28,7 +28,7 @@ function Building() {
         if (side === 0) { x = t * w; z = d=== 1) { x = t * w; z = -d; }
         else if (side === 2) { x = w; z = t * d; } else { x = -w; z = t * d; }
         pos.push(x + j, y + rnd() * 0.36, z + j);
-        const c = rnd() < 0.08 ? cyan : rnd() < 0.5 ? gold : dim;
+        const c = rnd() < 0.08 ? cyan () < 0.5 ? gold : dim;
         col.push(c.r, c.g, c.b);
       }
     }
