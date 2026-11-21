@@ -13,7 +13,3 @@ export function App() {
     <>
       <Nav />
       <main>
-        <Hero />
-        <How />
-        <Features 
-        <Pricing />
