@@ -1,1 +1,1 @@
-import { AUTHOR, REPO
+import { AUT
