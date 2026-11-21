@@ -17,8 +17,3 @@ export function App() {
         <How />
         <Features 
         <Pricing />
-        <Compare />
-        <Tech />
-        <Examples />
-        <Faq />
-        <Cta
