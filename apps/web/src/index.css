@@ -3,4 +3,4 @@
 @tailwind utilities;
 
 html { scroll-behavior: smooth; }
-body { @apply bg-bg-base text-gainsboro font-sans antialias
+body { @apply bg-bg-base text-gainsboro f
