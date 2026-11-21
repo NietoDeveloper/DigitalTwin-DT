@@ -13,5 +13,3 @@ export interface SiteData {
 }
 /** Loads everything from the local API. Throws if any request fails. */
 export async function loadFromApi(signal: AbortSignal): Promise<SiteData> {
-  const [plans, features, steps, tech, competitors, examples, faq] = await Promise.all([
-    get<SiteData['plans']>('plans', signal),
