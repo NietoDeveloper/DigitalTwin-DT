@@ -47,4 +47,4 @@ function Building() {
 class Boundary extends Component<{ children: ReactNode }, { failed: boolean }> {
   state = { failed: false };
   static getDerivedStateFromError() { return { failed: true }; }
-  render() { return this.state.failed ? <div className="h-full w-ful
+  render() { return this.state.failed ? <div className="h-full w-fu
