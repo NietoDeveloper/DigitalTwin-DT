@@ -50,4 +50,4 @@ class Boundary extends Component<{ children: ReactNode }, { failed: boolean }> {
   render() { return this.state.failed ? <div className="h-full w-full" aria-hidden /> : this.props.children; }
 }
 
-function hasWebGL(): boolean {
+function hasWebGL():
