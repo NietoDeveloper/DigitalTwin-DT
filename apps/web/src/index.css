@@ -11,6 +11,3 @@ body { @apply bg-bg-base text-gainsboro font-sans antialiased; margin: 0; overfl
   .eyebrow { @apply font-mono text-xs uppercase tracking-[0.2em] text-gold; }
   .h2 { @apply mt-2 text-3xl font-extrabold tracking-tight text-white sm:text-4xl; }
   .card { @apply rounded-xl border border-bg-line bg-bg-surface p-5 transition-colors duration-200; }
-  .card-hover:hover { @apply border-gold/60 bg-bg-elevated; }
-  .btn { @apply inline-flex items-center justify-center rounded-lg px-5 py-3 text-sm font-semibold transition; }
-  .btn-gold { @apply bg-gold text-black hover:brightness-110; }
