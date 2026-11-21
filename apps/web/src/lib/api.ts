@@ -9,7 +9,6 @@ export interface SiteData {
   tech: content.Tech[];
   competitors: content.Competitor[];
   examples: content.Example[];
-  faq: content.Faq[];
-}
+  faq: content.Faq
 /** Loads everything from the local API. Throws if any request fails. */
 export async function loadFromApi(signal: AbortSig
