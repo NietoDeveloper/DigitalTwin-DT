@@ -23,6 +23,4 @@ function Building() {
       const y = f * 0.42 - 1.7;
       for 
         const side = Math.floor(rnd() * 4), t = rnd() * 1, j = (rnd() - 0.5) * 0.04;
-        const w = 1.5
-        let x = 0, z = 0;
-        if (side === 0) { x = t * w; z = d=== 1) { x = t * w; z = -d; }
+        const w = 1.5) { x = t * w; z = d=== 1) { x = t * w; z = -d; }
