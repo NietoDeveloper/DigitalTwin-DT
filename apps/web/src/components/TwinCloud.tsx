@@ -62,4 +62,4 @@ export function TwinCloud() {
   return (
     <Bou
       <Canvas camera={{ position: [0, 0.3, 8], fov: 45 }} dpr={[1, 1.75]} aria-hidden>
-        <Bu
+      
