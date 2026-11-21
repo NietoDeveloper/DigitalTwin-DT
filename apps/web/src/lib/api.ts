@@ -17,4 +17,4 @@ export async function loadFromApi(signal: AbortSignal): Promise<SiteData> {
     get<SiteData['plans']>('plans', signal),
     get<SiteData['features']>('features', signal),
     get<SiteData['steps']>('steps', signal),
-    get<SiteData['tech']>('tec
+    get<SiteData['tech']>('
