@@ -7,4 +7,4 @@ function mulberry32(a: number) {
   return () => {
     a |= 0; a = (a + 0x6d2b79f5) | 0;
     let t = Math.imul(a ^ (a >>> 15), 1 | a);
-    t = (t + Math.imul(t ^ (t >>> 7), 6
+    t = (t + Math.imul(t ^ 
