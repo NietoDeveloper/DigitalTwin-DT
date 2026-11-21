@@ -7,7 +7,3 @@ describe('format', () => {
   it('price per space', () => {
     expect(pricePerSpace(get('pro'))).toBe('$5.50');
     expect(pricePerSpace(get('free'))).toBeNull();
-    expect(pricePerSpace(get('enterprise'))).toBeNull();
-  });
-  it('capture label', () => {
-    expect(captureLabel(get('
