@@ -13,7 +13,3 @@ function mulberry32(a: number) {
 }
 
 function Building() {
-  const ref = useRef<THREE.Points>(null);
-  const geo = 
-    const rnd = mulberry32(7);
-    const floors = 9, per = 520;
