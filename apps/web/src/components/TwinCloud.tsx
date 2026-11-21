@@ -53,5 +53,4 @@ class Boundary extends Component<{ children: ReactNode }, { failed: boolean }> {
 function hasWebGL(): boolean {
   try {
     const c = document.createElement('canvas');
-    return !!(c.getContext('webgl2') || c.getContext('webgl'));
-  
+    return !!(c.getContext('webgl2') || c.getContext
