@@ -3,4 +3,3 @@ import { useEffect } from 'react';
 import { Examples } from './components/Examples';
 import { Hero } from './components/Hero';
 import { Nav } from './components/Nav';
-import { Compare, Cta, Faq, Features, How, Pricing, Tech } from './components/Sections';
