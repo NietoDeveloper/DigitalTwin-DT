@@ -1,1 +1,1 @@
-import { AUTHOR, REPO_URL, SITE_URL } from '@dtdt/cont
+import { AUTHOR, REPO_URL, SITE_URL } from '@d
