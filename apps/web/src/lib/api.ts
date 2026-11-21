@@ -12,4 +12,4 @@ export interface SiteData {
   faq: content.Faq[];
 }
 /** Loads everything from the local API. Throws if any request fails. */
-export async function loadFromApi(signal: AbortSignal):
+export async function loadFromApi(signal: AbortSignal)
