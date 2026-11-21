@@ -1,1 +1,1 @@
-import { AUTHOR, REPO_URL, 
+import { AUTHOR, REPO
