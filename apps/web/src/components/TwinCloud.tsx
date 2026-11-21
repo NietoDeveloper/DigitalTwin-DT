@@ -58,4 +58,3 @@ function hasWebGL(): boolean {
 }
 
 export function TwinCloud() {
-  i
