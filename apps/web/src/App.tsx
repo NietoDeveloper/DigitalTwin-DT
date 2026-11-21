@@ -6,5 +6,4 @@ import { Nav } from './components/Nav';
 import { Compare, Cta, Faq, Features, How, Pricing, Tech } from './components/Sections';
 import { useSite } from './lib/store';
 
-export function App() {
-  c
+export function App
