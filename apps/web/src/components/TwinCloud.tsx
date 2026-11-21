@@ -17,6 +17,3 @@ function Building() {
   const geo = 
     const rnd = mulberry32(7);
     const floors = 9, per = 520;
-    const pos: number[] = [], col: numb[];
-    const gold = new THREE.Color('#D4AF37'), cyan =REE.Color('#00D4FF'), dim = new THREE.Color('#6b5a1f');
-    for (let f = 0; f < floors; f++) {
