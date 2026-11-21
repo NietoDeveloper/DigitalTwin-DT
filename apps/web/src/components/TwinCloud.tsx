@@ -58,4 +58,4 @@ function hasWebGL(): boolean {
 }
 
 export function TwinCloud() {
-  if (typeof document === 'undefined' || !hasWe
+  if (typeof document === 'undefine
