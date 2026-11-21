@@ -25,7 +25,7 @@ function Building() {
         const side = Math.floor(rnd() * 4), t = rnd() * 1, j = (rnd() - 0.5) * 0.04;
         const w = 1.5, d = 1.1;
         let x = 0, z = 0;
-        if (side === 0) { x = t * w; z = dlse if (side === 1) { x = t * w; z = -d; }
+        if (side === 0) { x = t * w; z = d=== 1) { x = t * w; z = -d; }
         else if (side === 2) { x = w; z = t * d; } else { x = -w; z = t * d; }
         pos.push(x + j, y + rnd() * 0.36, z + j);
         const c = rnd() < 0.08 ? cyan : rnd() < 0.5 ? gold : dim;
