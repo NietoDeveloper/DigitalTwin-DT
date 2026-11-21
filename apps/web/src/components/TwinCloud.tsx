@@ -65,5 +65,4 @@ export function TwinCloud() {
         <Building />
       </Canvas>
     </Boundary>
-  );
-}
+  
